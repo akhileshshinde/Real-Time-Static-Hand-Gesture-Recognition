@@ -61,6 +61,13 @@ The script supports live webcam, RTSP, or video file input.
 ``` bash
 python video_test_hand_sign.py
 ```
+``` bash
+model = DetectMultiBackend(
+    "(change the model path here)/best.pt",
+    device=device,
+    dnn=False
+)
+``` 
 
 Preprocesses input frames with thresholding (to match training data).
 
