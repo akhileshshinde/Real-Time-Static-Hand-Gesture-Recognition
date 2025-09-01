@@ -1,14 +1,14 @@
 # Real-Time-Static-Hand-Gesture-Recognition
 
-##✋ Hand Gesture Recognition with YOLOv5
-###📌 Project Overview
+## ✋ Hand Gesture Recognition with YOLOv5
+### 📌 Project Overview
 
 This project implements a real-time hand gesture recognition system using YOLOv5.
 The goal is to detect custom hand signs such as open palm, fist, peace sign (V), thumbs up in live video streams (webcam, RTSP, or recorded videos).
 
 A demonstration video is attached in the repo to showcase live detection results.
 
-##🎯 Why YOLO?
+## 🎯 Why YOLO?
 
 I chose YOLO (You Only Look Once) because:
 
