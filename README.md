@@ -20,7 +20,7 @@ Supports easy transfer learning, so I could train on my manually collected datas
 
 Well-documented and widely used, making it easier to build upon.
 
-🖼️ Dataset Collection & Preprocessing
+### 🖼️ Dataset Collection & Preprocessing
 
 I manually collected custom gesture data using my webcam.
 
@@ -32,7 +32,7 @@ Applied binary thresholding to highlight the hand region.
 
 This reduced background noise and made the hand shape more distinguishable.
 
-Example preprocessing:
+#### Example preprocessing:
 
 Original Frame	Thresholded Frame
 
