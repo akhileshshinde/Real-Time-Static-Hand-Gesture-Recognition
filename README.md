@@ -34,7 +34,7 @@ This reduced background noise and made the hand shape more distinguishable.
 
 #### Example preprocessing:
 
-Original Frame	Thresholded Frame
+Original Frame ->	Thresholded Frame
 
 	
 
