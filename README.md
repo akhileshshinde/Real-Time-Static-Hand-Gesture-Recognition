@@ -75,42 +75,20 @@ Runs YOLOv5 inference on the processed frame.
 
 Displays detections on the original RGB feed.
 
-📹 Demo Video
+### 📹 Demo Video - I have attached video in repo.
 
-👉 Demo Video Link
- (attach your video file here)
+### 🔮 Improvements & Next Steps
 
-🚀 How to Run
-
-Clone this repository:
-
-git clone https://github.com/akhilesh-hand-gesture/yolo-hand-signs.git
-cd yolo-hand-signs
-
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-
-Run live detection:
-
-python detect_threshold.py
-
-🔮 Improvements & Next Steps
-
-Remove preprocessing dependency:
+#### Remove preprocessing dependency:
 Train the model directly on raw RGB images so background subtraction isn’t required.
 
-Data augmentation:
+#### Data augmentation:
 Add random noise, rotation, brightness changes to make the model more robust.
 
-Expand gesture vocabulary:
+#### Expand gesture vocabulary:
 Include more signs and variations (two-hand gestures, rotations).
 
-Edge deployment:
+#### Edge deployment:
 Optimize for devices like NVIDIA Jetson Nano or mobile phones.
 
-📜 License
 
-This project is released under the MIT License.
