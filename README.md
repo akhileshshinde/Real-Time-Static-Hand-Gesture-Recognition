@@ -41,7 +41,7 @@ Original Frame	Thresholded Frame
 All preprocessed frames were manually annotated using LabelImg
 .
 
-⚙️ Training Details
+#### ⚙️ Training Details
 
 Framework: YOLOv5
 
@@ -55,12 +55,12 @@ Loss function: YOLOv5 default (CIoU + BCE Loss)
 
 Hardware: Trained on GPU
 
-▶️ Inference Script
+### ▶️ Inference Script
 
 The script supports live webcam, RTSP, or video file input.
-
-python detect_threshold.py
-
+``` bash
+python video_test_hand_sign.py
+```
 
 Preprocesses input frames with thresholding (to match training data).
 
